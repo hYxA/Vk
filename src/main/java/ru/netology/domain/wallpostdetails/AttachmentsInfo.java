@@ -7,6 +7,8 @@ public class AttachmentsInfo {
      * photoList, market, marketAlbum, sticker, event, prettyCards
      */
     private String attachmentType;     // тип вложения
+    private String attachmentName;     // название (имя) вложения
+    private boolean accept;            // приватность. Имеет ли доступ текущий пользователь
 
 
 }
