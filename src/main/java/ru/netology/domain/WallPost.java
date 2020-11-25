@@ -18,7 +18,7 @@ public class WallPost {
     private boolean favourites; // добавлено в избранное
     private int views;          // количество просмотров
     private boolean accept;     // приватность. Может ли текущий пользователь видеть пост
-    private boolean canRepost;  // может ли текущий пользователь сделать репост этой записи
+    private RepostInfo repostInfo;  // может ли текущий пользователь сделать репост этой записи
     private CommentsInfo commentsInfo;
     private LikesInfo likesInfo;
 }
