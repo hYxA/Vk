@@ -15,10 +15,10 @@ public class WallPost {
     private String body;        // основное тело поста со всеми картинками, ссылками и тд
     private int replyOwnerId;   // идентификатор владельца записи, в ответ на которую была оставлена текущая
     private int replyPostId;    // идентификатор записи, в ответ на которую была оставлена текущая
-    private int friendsOnly;    // метка "Только для друзей"
     private boolean favourites; // добавлено в избранное
-    private int likes;          // количество лайков
     private int views;          // количество просмотров
-    private boolean accept;     // приватность
+    private boolean accept;     // приватность. Может ли текущий пользователь видеть пост
+    private boolean canRepost;  // может ли текущий пользователь сделать репост этой записи
     private CommentsInfo commentsInfo;
+    private LikesInfo likesInfo;
 }
