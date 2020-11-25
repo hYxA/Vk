@@ -33,4 +33,6 @@ public class WallPost {
     private LikesInfo likesInfo;
     private AttachmentsInfo attachmentsInfo;
     private GeoInfo geoInfo;
+    private PostSource postSource;
+
 }
