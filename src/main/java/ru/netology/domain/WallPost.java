@@ -22,4 +22,5 @@ public class WallPost {
     private CommentsInfo commentsInfo;
     private LikesInfo likesInfo;
     private AttachmentsInfo attachmentsInfo;
+    private GeoInfo geoInfo;
 }
