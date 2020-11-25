@@ -1,6 +1,7 @@
 package ru.netology.domain;
 
-import javax.swing.*;
+import ru.netology.domain.wallpostdetails.*;
+
 import java.sql.Time;
 import java.util.Date;
 

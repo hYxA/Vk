@@ -1,4 +1,4 @@
-package ru.netology.domain;
+package ru.netology.domain.wallpostdetails;
 
 import javax.swing.text.Position;
 

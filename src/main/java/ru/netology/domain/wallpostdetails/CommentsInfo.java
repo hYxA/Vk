@@ -1,4 +1,4 @@
-package ru.netology.domain;
+package ru.netology.domain.wallpostdetails;
 
 public class CommentsInfo {
     private int commentCounter;         // счётчик комментариев
