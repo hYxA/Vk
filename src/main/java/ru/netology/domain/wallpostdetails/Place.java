@@ -2,7 +2,7 @@ package ru.netology.domain.wallpostdetails;
 
 public class Place {
     /**
-     * TODO
+     * TODO: add place elements
      * описание места
      */
 }
