@@ -10,5 +10,4 @@ public class AttachmentsInfo {
     private String attachmentName;     // название (имя) вложения
     private boolean accept;            // приватность. Имеет ли доступ текущий пользователь
 
-
 }
