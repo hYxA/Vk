@@ -10,10 +10,20 @@ public class PostManager {
     }
 
     public Object WallSearch() {
+        int ownerId;
+        int countPost;
+        int offset;
+        String domain;
+        String query;
+        boolean ownersOnly;
+
         return null;
     }
 
     public Object WallDelete() {
+        int ownerId;
+        int postId;
+
         return null;
     }
 }
